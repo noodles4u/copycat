@@ -1,0 +1,46 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+body {
+
+    margin: 0 auto;
+    font-size: 18px;
+}
+header {
+    background: darkgrey;
+    padding-top: 20px;
+
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: chocolate;
+}
+ul {
+display: flex;
+
+}
+
+li,a {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+main {
+    background:blue;
+}
+
+footer {
+    background: grey;
+}
